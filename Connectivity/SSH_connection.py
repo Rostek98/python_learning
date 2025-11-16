@@ -31,7 +31,6 @@ class SshConnectivity:
             return result
         return wrapper
 
-
     @show_host_information
     def execute_command_at_host(self, command):
         stdin, stdout, stderr = self.connection.exec_command(command)
