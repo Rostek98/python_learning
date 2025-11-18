@@ -37,6 +37,6 @@ class SshConnectivity:
         return stdout.read().decode('utf-8')
 
 
-if __name__ == "__main__":
-    with SshConnectivity(hostname='127.0.0.1') as ssh:
-        ssh.execute_command_at_host('pwd')
+# if __name__ == "__main__":
+#     with SshConnectivity(hostname='127.0.0.1') as ssh:
+#         ssh.execute_command_at_host('pwd')
